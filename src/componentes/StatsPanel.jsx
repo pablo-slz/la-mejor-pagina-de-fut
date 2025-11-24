@@ -1,10 +1,10 @@
 const StatsPanel = ({ stats }) => {
     return (
         <div className="stats-panel">
-            <div className="stat-card">
+            <div className="stat-card stat-card-yellow">
                 <h3>JUGADORES EN TABLA</h3>
-                <p className="stat-number">{stats.total}</p>
-                <span className="stat-badge">Favoritos: {stats.favorites}</span>
+                <p className="stat-number stat-number-black">{stats.total}</p>
+                <span className="stat-badge stat-badge-yellow">Favoritos: {stats.favorites}</span>
             </div>
             
             <div className="stat-card">

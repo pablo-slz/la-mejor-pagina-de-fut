@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
-import { playersData } from './data/playersData'; 
+import { playersData } from './data/playersData';
 import SearchBar from './componentes/SearchBar';
 import ThemeToggle from './componentes/ThemeToggle';
 import StatsPanel from './componentes/StatsPanel';
@@ -201,7 +201,7 @@ function App() {
                         <p className="header-subtitle">TOP CLUB SOCCER</p>
                         <h1 className="header-title">Dashboard de Jugadores</h1>
                         <p className="header-description">
-                            
+                            Gestiona tus estrellas favoritas, analiza estadísticas y descubre talentos.
                         </p>
                     </div>
                     <ThemeToggle darkMode={darkMode} onToggle={() => setDarkMode(!darkMode)} />
@@ -276,4 +276,3 @@ function App() {
 }
 
 export default App;
-  
