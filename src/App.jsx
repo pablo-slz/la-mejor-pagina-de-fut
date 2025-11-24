@@ -62,7 +62,7 @@ function App() {
         if (debouncedSearch && debouncedSearch.length > 1) {
             setSearchHistory(prev => {
                 const updated = [debouncedSearch, ...prev.filter(s => s !== debouncedSearch)];
-                const limited = updated.slice(0, 5);
+                const limited = updated.slice(5, 6);
                 localStorage.setItem('searchHistory', JSON.stringify(limited));
                 return limited;
             });
