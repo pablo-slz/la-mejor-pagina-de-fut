@@ -59,7 +59,7 @@ function App() {
 
     // useEffect para actualizar historial de búsqueda
     useEffect(() => {
-        if (debouncedSearch && debouncedSearch.length > 4) {
+        if (debouncedSearch && debouncedSearch.length > 1) {
             setSearchHistory(prev => {
                 const updated = [debouncedSearch, ...prev.filter(s => s !== debouncedSearch)];
                 const limited = updated.slice(0, 5);
