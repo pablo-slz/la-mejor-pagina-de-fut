@@ -201,7 +201,7 @@ function App() {
                         <p className="header-subtitle">TOP CLUB SOCCER</p>
                         <h1 className="header-title">Dashboard de Jugadores</h1>
                         <p className="header-description">
-                            Gestiona tus estrellas favoritas, analiza estadísticas y descubre talentos.
+                            
                         </p>
                     </div>
                     <ThemeToggle darkMode={darkMode} onToggle={() => setDarkMode(!darkMode)} />
