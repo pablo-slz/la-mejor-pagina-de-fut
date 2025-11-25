@@ -4,7 +4,7 @@ export const playersData = [
         name: "Lionel Messi",
         club: "Inter Miami",
         position: "Delantero",
-        country: "Argentina",
+        country: "Argentina",   
         age: 37,
         goals: 24,
         assists: 19,
