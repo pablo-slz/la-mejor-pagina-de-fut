@@ -1,10 +1,10 @@
-export const playersData = [
+const playersData = [
     {
         id: 1,
         name: "Lionel Messi",
         club: "Inter Miami",
         position: "Delantero",
-        country: "Argentina",
+        country: "Argentina",   
         age: 37,
         goals: 24,
         assists: 19,
@@ -12,7 +12,7 @@ export const playersData = [
     },
     {
         id: 2,
-        name: "Kevin De Bruyne",
+        name: "Kevin De Bruyne", 
         club: "Manchester City",
         position: "Mediocampista",
         country: "Bélgica",
@@ -220,3 +220,4 @@ export const playersData = [
         rating: 7.5
     }
 ];
+export default playersData;

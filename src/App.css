@@ -44,18 +44,18 @@ body {
 /* Modo oscuro */
 body.dark-mode {
     --bg-primary: #00000c;
-    --bg-secondary: #000309;
+    --bg-secondary: #000000;
     --bg-table: #ffffff;
     --text-table: #333333;
     --bg-table-hover: #f5f5f5;
     --text-primary: #f5f5f5;
     --text-secondary: #b0b0b0;
-    --text-light: #808080;
+    --text-light: #ffffff;
     --border-color: #2d3748;
     --shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     --shadow-lg: 0 4px 20px rgba(0, 0, 0, 0.5);
-    --highlight-even: #2d3748;
-    --highlight-odd: #374151;
+    --highlight-even: #e0de88e6;
+    --highlight-odd: #e0de88e6;
 }
 
 .app {
@@ -430,11 +430,13 @@ body.dark-mode {
 }
 
 .fav-button {
-    background: transparent;
+    background: rgb(250, 229, 1);
+    padding: 10px 20px;
+    border-radius: 8px; /* Número pequeño para menos redondez */
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
-    color: var(--text-light);
+    color: black;
     transition: var(--transition);
 }
 
@@ -443,7 +445,7 @@ body.dark-mode {
 }
 
 .fav-button.active {
-    color: var(--accent-yellow);
+    color: black;
 }
 
 /* Row Highlighting */
