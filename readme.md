@@ -115,16 +115,16 @@ dashboard-jugadores/
 ## 📸 Capturas de Pantalla
 
 ### Modo Claro
-![Modo Claro](https://via.placeholder.com/800x400/ffffff/333333?text=Modo+Claro)
+![Modo Claro](img/modoclaro.jpg)
 
 ### Modo Oscuro
-![Modo Oscuro](https://via.placeholder.com/800x400/1a1a2e/ffffff?text=Modo+Oscuro)
+![Modo Oscuro](img/modooscuro.jpg)
 
 ### Modal de Detalles
-![Modal](https://via.placeholder.com/600x400/ff6b35/ffffff?text=Modal+Jugador)
+![Modal](img/detallejugador.jpg)
 
 ### Búsqueda con Historial
-![Búsqueda](https://via.placeholder.com/800x200/ffffff/333333?text=Historial+de+Búsqueda)
+![Búsqueda](img/historial.jpg)
 
 ---
 
