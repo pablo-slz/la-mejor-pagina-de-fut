@@ -1,4 +1,4 @@
-export const playersData = [
+const playersData = [
     {
         id: 1,
         name: "Lionel Messi",
@@ -220,3 +220,4 @@ export const playersData = [
         rating: 7.5
     }
 ];
+export default playersData;
