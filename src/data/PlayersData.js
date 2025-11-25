@@ -12,7 +12,7 @@ export const playersData = [
     },
     {
         id: 2,
-        name: "Kevin De Bruyne",
+        name: "Kevin De Bruyne", 
         club: "Manchester City",
         position: "Mediocampista",
         country: "Bélgica",

@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
-import PlayersData from './data/PlayersData.js';
+import {playersData} from './data/playersData';
 import SearchBar from './componentes/SearchBar';
 import ThemeToggle from './componentes/ThemeToggle';
 import StatsPanel from './componentes/StatsPanel';
