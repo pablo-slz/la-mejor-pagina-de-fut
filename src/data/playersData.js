@@ -1,0 +1,223 @@
+const playersData = [
+    {
+        id: 1,
+        name: "Lionel Messi",
+        club: "Inter Miami",
+        position: "Delantero",
+        country: "Argentina",   
+        age: 37,
+        goals: 24,
+        assists: 19,
+        rating: 9.7
+    },
+    {
+        id: 2,
+        name: "Kevin De Bruyne", 
+        club: "Manchester City",
+        position: "Mediocampista",
+        country: "Bélgica",
+        age: 33,
+        goals: 9,
+        assists: 23,
+        rating: 9.3
+    },
+    {
+        id: 3,
+        name: "Kylian Mbappé",
+        club: "Paris Saint-Germain",
+        position: "Delantero",
+        country: "Francia",
+        age: 26,
+        goals: 31,
+        assists: 11,
+        rating: 9.2
+    },
+    {
+        id: 4,
+        name: "Erling Haaland",
+        club: "Manchester City",
+        position: "Delantero",
+        country: "Noruega",
+        age: 24,
+        goals: 35,
+        assists: 6,
+        rating: 9.1
+    },
+    {
+        id: 5,
+        name: "Jude Bellingham",
+        club: "Real Madrid",
+        position: "Mediocampista",
+        country: "Inglaterra",
+        age: 22,
+        goals: 18,
+        assists: 12,
+        rating: 9.0
+    },
+    {
+        id: 6,
+        name: "Vinícius Jr",
+        club: "Real Madrid",
+        position: "Delantero",
+        country: "Brasil",
+        age: 24,
+        goals: 21,
+        assists: 15,
+        rating: 8.9
+    },
+    {
+        id: 7,
+        name: "Mohamed Salah",
+        club: "Liverpool",
+        position: "Delantero",
+        country: "Egipto",
+        age: 32,
+        goals: 28,
+        assists: 14,
+        rating: 8.8
+    },
+    {
+        id: 8,
+        name: "Harry Kane",
+        club: "Bayern Munich",
+        position: "Delantero",
+        country: "Inglaterra",
+        age: 31,
+        goals: 33,
+        assists: 8,
+        rating: 8.7
+    },
+    {
+        id: 9,
+        name: "Rodri",
+        club: "Manchester City",
+        position: "Mediocampista",
+        country: "España",
+        age: 28,
+        goals: 7,
+        assists: 9,
+        rating: 8.6
+    },
+    {
+        id: 10,
+        name: "Bukayo Saka",
+        club: "Arsenal",
+        position: "Delantero",
+        country: "Inglaterra",
+        age: 23,
+        goals: 16,
+        assists: 13,
+        rating: 8.5
+    },
+    {
+        id: 11,
+        name: "Luka Modrić",
+        club: "Real Madrid",
+        position: "Mediocampista",
+        country: "Croacia",
+        age: 39,
+        goals: 4,
+        assists: 7,
+        rating: 8.4
+    },
+    {
+        id: 12,
+        name: "Robert Lewandowski",
+        club: "Barcelona",
+        position: "Delantero",
+        country: "Polonia",
+        age: 36,
+        goals: 29,
+        assists: 6,
+        rating: 8.3
+    },
+    {
+        id: 13,
+        name: "Bruno Fernandes",
+        club: "Manchester United",
+        position: "Mediocampista",
+        country: "Portugal",
+        age: 30,
+        goals: 12,
+        assists: 17,
+        rating: 8.2
+    },
+    {
+        id: 14,
+        name: "Phil Foden",
+        club: "Manchester City",
+        position: "Mediocampista",
+        country: "Inglaterra",
+        age: 24,
+        goals: 19,
+        assists: 11,
+        rating: 8.1
+    },
+    {
+        id: 15,
+        name: "Jamal Musiala",
+        club: "Bayern Munich",
+        position: "Mediocampista",
+        country: "Alemania",
+        age: 21,
+        goals: 14,
+        assists: 10,
+        rating: 8.0
+    },
+    {
+        id: 16,
+        name: "Victor Osimhen",
+        club: "Napoli",
+        position: "Delantero",
+        country: "Nigeria",
+        age: 26,
+        goals: 26,
+        assists: 5,
+        rating: 7.9
+    },
+    {
+        id: 17,
+        name: "Antoine Griezmann",
+        club: "Atlético Madrid",
+        position: "Delantero",
+        country: "Francia",
+        age: 33,
+        goals: 15,
+        assists: 14,
+        rating: 7.8
+    },
+    {
+        id: 18,
+        name: "Bernardo Silva",
+        club: "Manchester City",
+        position: "Mediocampista",
+        country: "Portugal",
+        age: 30,
+        goals: 8,
+        assists: 12,
+        rating: 7.7
+    },
+    {
+        id: 19,
+        name: "Declan Rice",
+        club: "Arsenal",
+        position: "Mediocampista",
+        country: "Inglaterra",
+        age: 25,
+        goals: 5,
+        assists: 8,
+        rating: 7.6
+    },
+    {
+        id: 20,
+        name: "Florian Wirtz",
+        club: "Bayer Leverkusen",
+        position: "Mediocampista",
+        country: "Alemania",
+        age: 21,
+        goals: 13,
+        assists: 16,
+        rating: 7.5
+    }
+];
+export default playersData;
